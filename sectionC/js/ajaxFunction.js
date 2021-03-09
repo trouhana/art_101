@@ -7,7 +7,7 @@ $.ajax({
   error:errorFun,
   complete: function (xhr, staus){
     console.log("request is complete"+xhr);
-  
+  }
 
 });
 }
